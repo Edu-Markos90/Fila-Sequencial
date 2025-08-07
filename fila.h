@@ -12,7 +12,7 @@ typedef struct {
     int fim;
     int tamanho;
 } Fila;
-
+bool consultarFrente(Fila *f, *valor) 
 void criarFila(Fila *f);
 bool estaVazia(Fila *f);
 bool estaCheia(Fila *f);
